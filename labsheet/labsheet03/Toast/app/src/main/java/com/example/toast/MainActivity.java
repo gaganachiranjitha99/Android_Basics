@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String efname=fname.getText().toString();
                 String elname=lname.getText().toString();
-                String fullname=efname + " "+ elname;
+                String fullname=efname +" "+ elname;
 
                 Toast.makeText(MainActivity.this,"Full name: " +fullname,Toast.LENGTH_LONG).show();
 
