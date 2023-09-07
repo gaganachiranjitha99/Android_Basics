@@ -51,4 +51,17 @@ public class MainActivity extends AppCompatActivity {
         showLog("Activity Resumed");
     }
 
+    protected void onPause(){
+        super.onPause();
+        showLog("Activity Paused");
+    }
+    protected void onStop(){
+        super.onStop();
+        showLog("Activity Stoped");
+    }
+
+    protected void onDestroy(){
+        super.onDestroy();
+        showLog("Activity is being destropyed");
+    }
 }
