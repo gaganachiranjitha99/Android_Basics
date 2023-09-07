@@ -39,9 +39,11 @@ public class Activity2 extends AppCompatActivity {
 
             Intent intent=new Intent(Activity2.this, Activity3.class);
             intent.putExtra("name",ename);
-            intent.putExtra("name",ename);
-            intent.putExtra("name",ename);
-            intent.putExtra("name",ename);
+            intent.putExtra("index",eindex);
+            intent.putExtra("depname",edepname);
+            intent.putExtra("faculty",efaculty);
+
+            startActivity(intent);
         }
     });
 
