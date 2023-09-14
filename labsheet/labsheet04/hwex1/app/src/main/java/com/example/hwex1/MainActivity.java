@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Uri webpage =Uri.parse(enteredUrl);
                 Intent intent=new Intent(Intent.ACTION_VIEW,webpage);
-                startActivity(Intent.makeMainActivity());
+                startActivity(intent);
 
 
 
