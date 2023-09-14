@@ -28,12 +28,12 @@ public class two extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String msg=edit.getText().toString();
+                String msg1=edit.getText().toString();
                 Intent intent=new Intent();
-                intent.putExtra("MESSAGE",msg);
+                intent.putExtra("MESSAGE",msg1);
                 setResult(My_REQUEST_CODE,intent);
                 finish();
-                //fe
+
 
 
             }
