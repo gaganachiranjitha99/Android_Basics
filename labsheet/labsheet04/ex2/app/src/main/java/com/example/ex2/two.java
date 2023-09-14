@@ -33,6 +33,7 @@ public class two extends AppCompatActivity {
                 intent.putExtra("MESSAGE",msg);
                 setResult(My_REQUEST_CODE,intent);
                 finish();
+                //fe
 
 
             }
