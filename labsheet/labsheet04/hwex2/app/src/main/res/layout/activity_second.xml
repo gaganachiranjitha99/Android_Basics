@@ -93,7 +93,7 @@
     <EditText
         android:id="@+id/txtitem2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,7 +106,7 @@
     <EditText
         android:id="@+id/txtitem3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
         tools:layout_editor_absoluteX="160dp"
@@ -115,7 +115,7 @@
     <EditText
         android:id="@+id/txtitem4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -128,7 +128,7 @@
     <EditText
         android:id="@+id/txtitem5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
