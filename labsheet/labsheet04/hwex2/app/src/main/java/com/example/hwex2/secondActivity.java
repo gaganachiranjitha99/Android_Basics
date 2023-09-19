@@ -38,7 +38,22 @@ public class secondActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
+    private double calculateItem(){
+
+        double total=0.0;
+        total += parseDouble(et1.getText().toString());
+
+        return total;
+    }
+
+    private double parseDouble(String text) {
+        try {
+            return Double.parseDouble(text);
+        } catch (NumberFormatException e) {
+            return 0.0;
+        }
+    }
+
+
 }
