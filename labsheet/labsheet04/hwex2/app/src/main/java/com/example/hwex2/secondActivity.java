@@ -45,6 +45,7 @@ public class secondActivity extends AppCompatActivity {
         total += parseDouble(et1.getText().toString());
         total += parseDouble(et2.getText().toString());
         total += parseDouble(et3.getText().toString());
+        total += parseDouble(et4.getText().toString());
 
         return total;
     }
