@@ -36,6 +36,10 @@ public class secondActivity extends AppCompatActivity {
 
                 double total=calculateItem();
                 Intent intent= new Intent();
+                intent.putExtra("TOTAL",total);
+                setResult(1,intent);
+                
+
 
             }
         });
