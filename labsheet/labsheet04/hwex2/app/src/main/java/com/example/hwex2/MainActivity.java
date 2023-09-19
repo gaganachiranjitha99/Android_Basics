@@ -19,7 +19,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         displayTotal=(TextView) findViewById(R.id.totalTextView);
-        gobtn=(Button) findViewById()
+        gobtn=(Button) findViewById(R.id.btncart);
+
+        
+
 
 
     }
