@@ -3,6 +3,7 @@ package com.example.hwex2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -10,8 +11,8 @@ public class secondActivity extends AppCompatActivity {
 
 
 
-    private EditText et1,et2,et3,et4,et5;
-    private Button calculatebtn;
+     EditText et1,et2,et3,et4,et5;
+     Button calculatebtn;
 
 
     @Override
@@ -26,7 +27,17 @@ public class secondActivity extends AppCompatActivity {
         et4=(EditText) findViewById(R.id.txtitem4);
         et5=(EditText) findViewById(R.id.txtitem5);
 
-        
+        calculatebtn=(Button) findViewById(R.id.btncalculate);
+
+        calculatebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                double total=calculateItem();
+
+            }
+        });
+
 
 
     }
