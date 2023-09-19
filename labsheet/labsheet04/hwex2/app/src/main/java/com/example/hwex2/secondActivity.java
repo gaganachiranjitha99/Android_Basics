@@ -38,7 +38,7 @@ public class secondActivity extends AppCompatActivity {
                 Intent intent= new Intent();
                 intent.putExtra("TOTAL",total);
                 setResult(1,intent);
-                
+                finish();
 
 
             }
