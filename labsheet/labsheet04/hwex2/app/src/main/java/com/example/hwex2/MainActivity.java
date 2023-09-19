@@ -1,5 +1,6 @@
 package com.example.hwex2;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -36,6 +37,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode==1){
+
+            double fulltotal= data.getDoubleExtra("TOTAL",0.0);
+            displayTotal.setText((int) fulltotal);
+        }
 
 
     }
