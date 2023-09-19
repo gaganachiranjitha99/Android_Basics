@@ -43,6 +43,8 @@ public class secondActivity extends AppCompatActivity {
 
         double total=0.0;
         total += parseDouble(et1.getText().toString());
+        total += parseDouble(et2.getText().toString());
+
 
         return total;
     }
