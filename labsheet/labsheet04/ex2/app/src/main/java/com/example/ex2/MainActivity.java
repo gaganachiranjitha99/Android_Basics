@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         if(requestCode==My_REQUEST_CODE){
 
             String msg=data.getStringExtra("MESSAGE");
+            dispaly=
         }
 //
     }

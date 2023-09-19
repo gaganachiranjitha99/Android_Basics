@@ -10,12 +10,17 @@ public class MainActivity extends AppCompatActivity {
 
     TextView displayTotal;
     Button gobtn;
-    
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        displayTotal=(TextView) findViewById(R.id.totalTextView);
+        gobtn=(Button) findViewById()
+
+
     }
 }
