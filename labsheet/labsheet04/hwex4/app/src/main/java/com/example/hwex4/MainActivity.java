@@ -2,6 +2,8 @@ package com.example.hwex4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -39,7 +41,14 @@ public class MainActivity extends AppCompatActivity {
     }
     private void sendEmail(){
 
-        
+        Intent mailintent= new Intent(Intent.ACTION_SENDTO);
+        mailintent.setData(Uri.parse("mailto:gaganachiranjithacoc2@gmail.com"));
+        startActivity(mailintent);
+    }
+
+    private void callPhone(){
+
+        Intent phoneintent=new Intent(Intent.ACTION_DIAL);
     }
 
 }
