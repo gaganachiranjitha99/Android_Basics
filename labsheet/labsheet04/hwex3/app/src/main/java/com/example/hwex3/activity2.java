@@ -32,17 +32,12 @@ public class activity2 extends AppCompatActivity {
                 intent.putExtra("CYLINDERINFO",cylinderInfo);
                 setResult(RESULT_OK,intent);
                 finish();
-
             }
         });
 
-
     }
-
     private String getCylinderInfo(String colourCode) {
-
         String fcylinderInfo;
-
         switch (colourCode) {
 
             case "red":
@@ -64,7 +59,6 @@ public class activity2 extends AppCompatActivity {
             default:
                 fcylinderInfo = "colour code not found";
                 break;
-
         }
         return fcylinderInfo;
     }

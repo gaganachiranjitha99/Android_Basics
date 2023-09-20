@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     Button  gobtn;
     TextView display;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,17 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(MainActivity.this, activity2.class);
                 startActivityForResult(intent,1);
-
-
-
-
-
-            }
+          }
         });
-
-
     }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -47,10 +38,6 @@ public class MainActivity extends AppCompatActivity {
 
             String cylindercolour = data.getStringExtra("CYLINDERINFO");
             display.setText(cylindercolour);
-
         }
-//fe
-
-
     }
 }
