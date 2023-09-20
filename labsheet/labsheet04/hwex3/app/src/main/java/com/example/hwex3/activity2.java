@@ -16,6 +16,7 @@ public class activity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
 
+        txtcolour=(EditText) findViewById(R.id.txtcolourcode);
         
 
 
