@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         gobtn = (Button)findViewById(R.id.btngo);
-        display=
+        display=(TextView) findViewById(R.id.)
 
 
     }
