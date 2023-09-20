@@ -28,7 +28,10 @@ public class activity2 extends AppCompatActivity {
                 String colourCode = txtcolour.getText().toString();
                 String cylinderInfo = getCylinderInfo(colourCode);
 
-                Intent intent =
+                Intent intent = new Intent();
+                intent.putExtra("CYLINDERINFO",cylinderInfo);
+                setResult(RESULT_OK,intent);
+                
 
             }
         });
