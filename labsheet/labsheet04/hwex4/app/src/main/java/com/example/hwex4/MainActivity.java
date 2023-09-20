@@ -26,9 +26,20 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        
+
+        phone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callPhone();
+            }
+        });
 
 
 
     }
+    private void sendEmail(){
+
+        
+    }
+
 }
