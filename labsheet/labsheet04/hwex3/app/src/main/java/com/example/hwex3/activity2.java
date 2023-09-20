@@ -31,7 +31,7 @@ public class activity2 extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.putExtra("CYLINDERINFO",cylinderInfo);
                 setResult(RESULT_OK,intent);
-                
+                finish();
 
             }
         });
