@@ -17,6 +17,8 @@ public class activity2 extends AppCompatActivity {
         setContentView(R.layout.activity_2);
 
         txtcolour=(EditText) findViewById(R.id.txtcolourcode);
+        searchbtn=(Button) findViewById(R.id.btnsearch);
+
         
 
 
