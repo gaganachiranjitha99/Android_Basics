@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(MainActivity.this, activity2.class);
                 startActivityForResult(intent,1);
-                
+
 
 
 
@@ -37,4 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 }
