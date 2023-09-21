@@ -15,8 +15,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#358a32"
         android:text="Button1"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="127dp"
+
         android:layout_weight="1"/>
 
     <Button
@@ -25,8 +24,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#0058b6"
         android:text="Button2"
-        tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="127dp"
+        
         android:layout_weight="1"
         />
 
