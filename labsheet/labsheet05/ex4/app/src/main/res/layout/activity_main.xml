@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--text view for displaying sign in text at top of the UI-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Sign In"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    <!-- Text view for displaying username-->
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="UserName: "
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+        android:layout_below="@+id/userName"
+        android:textSize="20sp"
+        android:textColor="#000000"
+         />
+
+    <EditText
+        android:id="@+id/edt_userName"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/userName"
+        android:hint="Username"
+        android:ems="10"
+        android:inputType="text"
+
+         />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edt_userName"
+        android:layout_centerVertical="true"
+        android:hint="passsword"
+
+        android:layout_toRightOf="@+id/password"
+         />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#03B424"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+
+
+
+        />
+
+
+</RelativeLayout>
