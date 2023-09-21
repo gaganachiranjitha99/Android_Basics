@@ -6,26 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:gravity="top|center"
+    android:gravity="left|center"
     >
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#358a32"
         android:text="Button1"
         tools:layout_editor_absoluteX="89dp"
         tools:layout_editor_absoluteY="127dp"
-        android:backgroundTint="#358a32"/>
+        android:layout_weight="1"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0058b6"
         android:text="Button2"
         tools:layout_editor_absoluteX="240dp"
         tools:layout_editor_absoluteY="127dp"
-        android:backgroundTint="#0058b6"
+        android:layout_weight="1"
         />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0058b6"
+        android:text="Button3"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="127dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>
