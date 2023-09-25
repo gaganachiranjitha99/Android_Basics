@@ -23,6 +23,7 @@
         android:id="@+id/ed2"
         android:hint="Subject"
 
+
         />
 
     <EditText
@@ -36,6 +37,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SEND"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="30dp"
+
+
 
 
         />
