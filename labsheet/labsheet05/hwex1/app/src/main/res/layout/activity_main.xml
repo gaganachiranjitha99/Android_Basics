@@ -7,20 +7,21 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Welcome"
         android:textSize="34sp"
-        android:layout_gravity="center|top"
+        android:gravity="center"
+
         android:textColor="#FF0000"
+        android:background="#00FF00"
         
         />
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height=""
-
-
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/a" />
 
 
 </FrameLayout>
