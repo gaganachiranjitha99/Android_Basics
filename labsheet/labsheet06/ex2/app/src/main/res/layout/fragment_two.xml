@@ -12,6 +12,10 @@
         android:id="@+id/textview2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="displaying content of the second fragment"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
 
 </LinearLayout>
