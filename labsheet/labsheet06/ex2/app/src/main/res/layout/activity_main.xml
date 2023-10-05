@@ -38,13 +38,23 @@
         android:id="@+id/button2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="#00bfff"
         android:onClick="selectfragment"
-        android:text="display the first fragment"
+        android:text="display the second fragment"
         android:textSize="18sp"
         android:textStyle="bold"
+
+        />
+    <fragment
+        android:id="@+id/fragment_section"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
 
         />
 
