@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <ListView
+        android:id="@+id/listMonths"
         android:layout_width="409dp"
         android:layout_height="729dp"
         tools:layout_editor_absoluteX="1dp"
