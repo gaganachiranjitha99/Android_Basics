@@ -35,6 +35,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         String[] from={"name","image"};
-        int[] to={R.id.textView}
+        int[] to={R.id.textView,R.id.imageView}
     }
 }
