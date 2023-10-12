@@ -33,5 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
             arrayList.add(hashMap);
         }
+
+        String[] from={"name","image"};
+        int[] to={R.id.textView}
     }
 }
