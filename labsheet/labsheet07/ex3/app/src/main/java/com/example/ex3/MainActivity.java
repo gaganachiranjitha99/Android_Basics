@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ListView;
+import android.widget.SimpleAdapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         String[] from={"name","image"};
-        int[] to={R.id.textView,R.id.imageView}
+        int[] to={R.id.textView,R.id.imageView};
+        SimpleAdapter simpleAdapter=new SimpleAdapter()
     }
 }
