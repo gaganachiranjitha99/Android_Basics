@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
         for (int i=0;i<animalName.length;i++){
             HashMap<String,String> hashMap =new HashMap<>();
             hashMap.put("name",animalName[i]);
+            hashMap.put("image",animalImages[i]+"");
+
+            arrayList.add(hashMap);
         }
     }
 }
