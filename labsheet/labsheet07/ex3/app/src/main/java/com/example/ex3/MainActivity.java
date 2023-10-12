@@ -3,6 +3,8 @@ package com.example.ex3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -37,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
         String[] from={"name","image"};
         int[] to={R.id.textView,R.id.imageView};
-        SimpleAdapter simpleAdapter=new SimpleAdapter()
+        SimpleAdapter simpleAdapter=new SimpleAdapter(this,arrayList,R.layout.activity_list_view_items,from,to);
+        simpleListview.setAdapter(simpleAdapter);
+
+        simpleListview.setOnClickListener(new View.OnClickListener()>());
+
     }
 }
