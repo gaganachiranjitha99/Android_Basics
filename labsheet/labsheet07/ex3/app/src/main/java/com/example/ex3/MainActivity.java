@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             arrayList.add(hashMap);
         }
 
-        String[] from={"name","image"};
+        String[] from={"name","imagee"};
         int[] to={R.id.textView,R.id.imageView};
         SimpleAdapter simpleAdapter=new SimpleAdapter(this,arrayList,R.layout.activity_list_view_items,from,to);
         simpleListview.setAdapter(simpleAdapter);
