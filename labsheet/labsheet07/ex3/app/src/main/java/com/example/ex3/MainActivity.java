@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     int[] animalName={R.drawable.animal1,R.drawable.animal2,
-    R.drawable.animal3,R.drawable.animal4,
+    R.drawable.animal34,R.drawable.animal4,
             R.drawable.animal5,R.drawable.animal6
     };
     @Override
