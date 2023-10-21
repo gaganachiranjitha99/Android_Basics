@@ -16,6 +16,12 @@ public class Employee {
         this.salary = salary;
     }
 
+    public Employee(String name, String dep, String salary) {
+        this.name = name;
+        this.dep = dep;
+        this.salary = salary;
+    }
+
     public int getId() {
         return id;
     }
