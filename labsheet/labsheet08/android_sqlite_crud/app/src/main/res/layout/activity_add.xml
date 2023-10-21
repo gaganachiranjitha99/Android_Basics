@@ -13,4 +13,14 @@
         android:text="ADD EMPLOYEE"
         tools:layout_editor_absoluteX="155dp"
         tools:layout_editor_absoluteY="65dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="151dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
