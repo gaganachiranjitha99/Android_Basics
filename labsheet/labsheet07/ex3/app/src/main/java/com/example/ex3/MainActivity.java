@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     ListView simpleListview;
-    String[] animaliName={"Rabbit","Squirrel","Dog","Tiger","Elephant","Deer"};
+    String[] animaliName={"Rabbit","Squirrel","Doo","Tiger","Elephant","Deer"};
 
 
     int[] animalName={R.drawable.animal1,R.drawable.animal2,
