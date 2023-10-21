@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="salary"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="282dp" />
 
