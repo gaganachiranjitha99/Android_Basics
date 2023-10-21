@@ -1,5 +1,6 @@
 package com.example.android_sqlite_crud;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -26,5 +27,14 @@ public class DBHandler extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(sql);
         onCreate(sqLiteDatabase);
 
+    }
+
+    public void addEmployee(Employee employee){
+        SQLiteDatabase sqLiteDatabase=getWritableDatabase();
+        ContentValues contentValues=new ContentValues();
+        contentValues.put("name",employee.getName());
+        contentValues.put("dep",employee.getDep());
+        contentValues.put("salary",employee.getSalary());
+        sqLiteDatabase.insert("employee",null,contentValues);
     }
 }
