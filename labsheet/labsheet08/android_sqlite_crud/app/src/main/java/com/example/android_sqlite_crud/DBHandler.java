@@ -36,5 +36,6 @@ public class DBHandler extends SQLiteOpenHelper {
         contentValues.put("dep",employee.getDep());
         contentValues.put("salary",employee.getSalary());
         sqLiteDatabase.insert("employee",null,contentValues);
+        sqLiteDatabase.close();
     }
 }
