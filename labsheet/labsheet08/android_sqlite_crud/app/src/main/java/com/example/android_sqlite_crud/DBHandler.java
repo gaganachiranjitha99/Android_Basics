@@ -15,12 +15,16 @@ public class DBHandler extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        
-
+        String sql="CREATE TABLE employee(id INTEGER PRIMARY KEY AUTOINCREMENT,TEXT,dep TEXT,salary TEXT);";
+        sqLiteDatabase.execSQL(sql);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+
+        String sql="DROP TABLE IF EXISTS employee_details;";
+        sqLiteDatabase.execSQL(sql);
+        onCreate(sqLiteDatabase);
 
     }
 }
