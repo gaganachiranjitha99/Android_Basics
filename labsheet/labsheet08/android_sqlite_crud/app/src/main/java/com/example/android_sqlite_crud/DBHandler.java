@@ -16,7 +16,7 @@ public class DBHandler extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        String sql="CREATE TABLE employee(id INTEGER PRIMARY KEY AUTOINCREMENT,TEXT,dep TEXT,salary TEXT);";
+        String sql="CREATE TABLE employee(id INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT,dep TEXT,salary TEXT);";
         sqLiteDatabase.execSQL(sql);
     }
 

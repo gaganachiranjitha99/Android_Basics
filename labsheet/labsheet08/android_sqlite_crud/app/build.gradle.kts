@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.android_sqlite_crud"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.android_sqlite_crud"
