@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             String eename=name.getText().toString();
             String eeage=age.getText().toString();
-            String egender=gender.getText().toString();
+            String eegender=gender.getText().toString();
             String ecity=city.getText().toString();
             String emobile=mobile.getText().toString();
             String eemail=email.getText().toString();
