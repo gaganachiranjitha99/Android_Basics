@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     btnsubmit.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            String ename=name.getText().toString();
+            String eename=name.getText().toString();
             String eage=age.getText().toString();
             String egender=gender.getText().toString();
             String ecity=city.getText().toString();
