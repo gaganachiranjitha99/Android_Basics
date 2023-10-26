@@ -2,10 +2,12 @@ package com.example.ex1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,12 +32,23 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             String ename=name.getText().toString();
-            String ename=name.getText().toString();
-            String ename=name.getText().toString();
-            String ename=name.getText().toString();
-            String ename=name.getText().toString();
-            String ename=name.getText().toString();
-            String ename=name.getText().toString();
+            String eage=age.getText().toString();
+            String egender=gender.getText().toString();
+            String ecity=city.getText().toString();
+            String emobile=mobile.getText().toString();
+            String eemail=email.getText().toString();
+            String edepartment=department.getText().toString();
+
+            Toast.makeText(MainActivity.this, "data entered sucessfull", Toast.LENGTH_SHORT).show();
+
+            Intent intent =new Intent(MainActivity.this, MainActivity2.class);
+            intent.putExtra("name",ename);
+            intent.putExtra("age",eage);
+            intent.putExtra("gender",egender);
+            intent.putExtra("city",ecity);
+            intent.putExtra("mobile",emobile);
+            intent.putExtra("email",eemail);
+            intent.putExtra("department",edepartment);
 
         }
     });
