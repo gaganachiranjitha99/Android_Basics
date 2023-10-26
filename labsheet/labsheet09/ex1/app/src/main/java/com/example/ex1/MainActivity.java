@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             String eeage=age.getText().toString();
             String eegender=gender.getText().toString();
             String ecity=city.getText().toString();
-            String emobile=mobile.getText().toString();
+            String eemobile=mobile.getText().toString();
             String eemail=email.getText().toString();
             String edepartment=department.getText().toString();
 
