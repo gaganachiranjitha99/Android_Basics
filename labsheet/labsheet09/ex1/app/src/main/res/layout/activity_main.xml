@@ -169,7 +169,7 @@
         app:layout_constraintVertical_bias="0.832" />
 
     <TextView
-        android:id="@+id/submitbtn"
+        android:id="@+id/viewmain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter details"
@@ -180,7 +180,8 @@
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.143" />
+        app:layout_constraintVertical_bias="0.143"
+        tools:ignore="DuplicateIds" />
 
     <Button
         android:id="@+id/submitbtn"

@@ -54,7 +54,7 @@ dmobile.setOnClickListener(new View.OnClickListener() {
     public void onClick(View view) {
 
         Intent callintent=new Intent(Intent.ACTION_DIAL,Uri.parse("tel"+mobile));
-        
+
     }
 });
 
