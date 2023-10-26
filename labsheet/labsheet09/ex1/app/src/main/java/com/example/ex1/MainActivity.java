@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("mobile",emobile);
             intent.putExtra("email",eemail);
             intent.putExtra("department",edepartment);
+            startActivity(intent);
 
         }
     });
