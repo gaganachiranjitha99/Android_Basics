@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             String eemail=email.getText().toString();
             String edepartment=department.getText().toString();
 
-            Toast.makeText(MainActivity.this, "data entered sucessfull", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "data entered sucessfull.", Toast.LENGTH_SHORT).show();
 
             Intent intent =new Intent(MainActivity.this, MainActivity2.class);
             intent.putExtra("name",ename);
