@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "data entered sucessfull.", Toast.LENGTH_SHORT).show();
 
             Intent intent =new Intent(MainActivity.this, MainActivity2.class);
-            intent.putExtra("name",ename);
+            intent.putExtra("namee",ename);
             intent.putExtra("age",eage);
             intent.putExtra("gender",egender);
             intent.putExtra("city",ecity);
